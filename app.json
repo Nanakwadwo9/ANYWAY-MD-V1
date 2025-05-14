@@ -22,7 +22,7 @@
     "AUTO_LIKE_STATUS":
     {
       "description":"Your contact status will be reacting automatically(type yes to active or no to deactive  ; don't write in capital letter)",
-      "value":"no",
+      "value":"yes",
       "required":false
     }, "AUTO_DOWNLOAD_STATUS":
     {
@@ -55,7 +55,7 @@
     "PUBLIC_MODE":
     {
       "description":"type yes to put your bot on public mode or no to put it on private mod",
-      "value":"yes",
+      "value":"no",
       "required":false
     }
 	,
@@ -71,14 +71,14 @@
     "SESSION_ID":
     {
       "description":"put your session ID , the code you receive after scanning Qr code",   
-      "value":"",
+      "value":"eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiVUNkZGtqd2ZuVGROVGZHcnpENDFRaFJpN1VrbzlyRVlmZWo2ZFVTeGdXOD0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiOHlCSEMzbEQzMjRSNmhOZGliZkhlcXk2U1N5NmJUdGdqOEtLcytXRVJ4UT0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJvRHdZWGxaMjlaa2Rka0F0cHlKNUtYcisrQnp5TnZIS014a3J0UFhWRUVNPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJ2eHkyejB3YzJaclhaRHBxMGUzbmlYVjZDcFpaSjE3cHkwdGY1MnlBREhzPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkNGOWMzazRhMldmSlF6Z25mOTFWb1ZaSzJYWVVIWmJMQ2VXNUZJWnRMRk09In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Imw3amw2Q0RaT1hJcm43UGZkOFlsRmxqeU5Eck5NaFZhenJWK0R6Ym9EVjA9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiR0dKQTZhZ2tna0VTOUMvSW5SaEhJT3g3c1h1TGxLWXFTOWMvbU1pcVoxOD0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiWVVRb1FwdzZQRWVGck1qYjU4cE5BN3VIaytuNm1YK3BERURlaEpiRGlHbz0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Ik5mZXMxVnlCM0V1RnY2OG1hRzJCY245SUlicjZzMHZoR0RiajdoaWZXKzlwWm5UOEpZU1Juc0cyM2lWbzJTUUcwMXNLbXNlcjJtdW9BUG82ZzlsbkNnPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6NzgsImFkdlNlY3JldEtleSI6Ikxmd0E1bkN0SlRadE5RdjlUdmFUNlhnb2RJZncrNzA4SSs1bEpTdG05K2c9IiwicHJvY2Vzc2VkSGlzdG9yeU1lc3NhZ2VzIjpbeyJrZXkiOnsicmVtb3RlSmlkIjoiMjMzMjAyNDI5MTgyQHMud2hhdHNhcHAubmV0IiwiZnJvbU1lIjp0cnVlLCJpZCI6IjNBQjk1RDlBRTI4NjAyOTYxRDA5In0sIm1lc3NhZ2VUaW1lc3RhbXAiOjE3NDcyNTU1ODZ9LHsia2V5Ijp7InJlbW90ZUppZCI6IjIzMzIwMjQyOTE4MkBzLndoYXRzYXBwLm5ldCIsImZyb21NZSI6dHJ1ZSwiaWQiOiIzQUZGNkU0QUExM0I2NzJEQjdEQSJ9LCJtZXNzYWdlVGltZXN0YW1wIjoxNzQ3MjU1NTg5fV0sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjoxLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiIyYUNmZUNwaVEwZTk3a0tkeDN4TVNRIiwicGhvbmVJZCI6ImZjOTk3MGQwLTk0MmMtNGRhOS1hYWM2LTRlNjQyYTQ4YzkwNyIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJHMUIyUTVMS0tFcGh5NnAvRVJ6OS9CQ21wVEk9In0sInJlZ2lzdGVyZWQiOnRydWUsImJhY2t1cFRva2VuIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiaXFEMlRTK2MvZmQ4YXRqZXQxNFIxZnRxWlF3PSJ9LCJyZWdpc3RyYXRpb24iOnt9LCJwYWlyaW5nQ29kZSI6IkVWOUJTUVhTIiwibWUiOnsiaWQiOiIyMzMyMDI0MjkxODI6NTBAcy53aGF0c2FwcC5uZXQiLCJuYW1lIjoiUkVHSU5BIn0sImFjY291bnQiOnsiZGV0YWlscyI6IkNMdXN2dm9DRUpPQ2xNRUdHQUVnQUNnQSIsImFjY291bnRTaWduYXR1cmVLZXkiOiJtRkdlVGR4NThBVzFqbTR0MTN6Q0hlVzZqVWRjOWxuTkVFQ09tcFNBMTFVPSIsImFjY291bnRTaWduYXR1cmUiOiI3V1ZBSDdrUjIzOTdKc055Z213c3o2NDlaMzA2a3hXQ2Mzamh6WUdFektHdmlYdkdISGtwdllIaUJzbk9LNDAxSXNDV0g5a0lzSjJCQjhyc2xIZTFEZz09IiwiZGV2aWNlU2lnbmF0dXJlIjoiTjFUcFd1aktKUlFDb25ObzhRL1dLV0I5ZEN3R2E2K0R5UGFqU1ZobFl3OU1zZnNyMkZqR3JUbFJILzI4RFBiVU4veGdyQmpnbEtpRnhESTIyeG4wQlE9PSJ9LCJzaWduYWxJZGVudGl0aWVzIjpbeyJpZGVudGlmaWVyIjp7Im5hbWUiOiIyMzMyMDI0MjkxODI6NTBAcy53aGF0c2FwcC5uZXQiLCJkZXZpY2VJZCI6MH0sImlkZW50aWZpZXJLZXkiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJCWmhSbmszY2VmQUZ0WTV1TGRkOHdoM2x1bzFIWFBaWnpSQkFqcHFVZ05kViJ9fV0sInBsYXRmb3JtIjoic21iaSIsImxhc3RBY2NvdW50U3luY1RpbWVzdGFtcCI6MTc0NzI1NTU4NCwibXlBcHBTdGF0ZUtleUlkIjoiQUFBQUFBamsifQ==",
       "required":true
       
     },
     "OWNER_NAME":
     {
     
-    "desc": "Your Name",
+    "desc": "NANA KWADWO",
     "required": false,
     "value": "MR ANYWAY"
   },
@@ -87,7 +87,7 @@
     
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
     "required":false,
-    "value": "255678892xxx"
+    "value": "233202429182"
   },
     "WARN_COUNT":
   {
@@ -103,7 +103,7 @@
   },
   "PRESENCE":{
     "description":"Mark your presence: 1 to indicate that you are online even if you are not. 2 to indicate that you are currently typing a message. 3 to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
-    "value":"",
+    "value":"1",
     "required": false
   },
 	"ANTIDELETE2" : {
